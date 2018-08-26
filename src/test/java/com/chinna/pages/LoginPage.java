@@ -12,7 +12,7 @@ public class LoginPage {
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 	}
-	
+	 
 	public void loginToDominos() throws Exception{
 		action = new BrowserAction(driver);
 		action.swithToFrame(IPizzaObjectMap.PIZZA_LOGIN_FRAME_CSS);
