@@ -12,9 +12,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
+import cucumber.api.java.After;
+
 public class TestBase {
 
-	public WebDriver driver = null;
+	public static WebDriver driver = null;
 
 	public void openBrowser(String browser) throws Exception {
 
@@ -70,5 +72,7 @@ public class TestBase {
 			driver.quit();
 		}
 	}
+	
+	
 
 }

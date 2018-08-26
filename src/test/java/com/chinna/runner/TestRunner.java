@@ -10,6 +10,8 @@ import cucumber.api.junit.Cucumber;
 		features = "src\\test\\resources\\features",
 		glue = "com.chinna.stepdef",
 		plugin = {"pretty", "html:target/cucumber-reports"})
-public class TestRunner {
+public class TestRunner{
+	
+	
 	
 }
